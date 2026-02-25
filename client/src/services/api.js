@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: '/api',
+    baseURL: 'https://food-rush-owd9.onrender.com/api',
 });
 
 // Attach JWT token to each request
