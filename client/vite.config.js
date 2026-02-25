@@ -10,7 +10,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:5001',
+        target: 'https://food-rush-owd9.onrender.com',
         changeOrigin: true,
       }
     }
